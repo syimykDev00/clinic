@@ -1,0 +1,224 @@
+#doctors {
+  padding: 60px 0;
+  .doctors {
+    h1 {
+      color: #161719;
+      font-size: 45px;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    p {
+      color: #535353;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      padding: 15px 0 55px 0;
+    }
+
+    &--photos {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #doctors {
+    .doctors {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--photos {
+        img {
+          width: 32%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #doctors {
+    .doctors {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--photos {
+        img {
+          width: 32%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #doctors {
+    .doctors {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--photos {
+        img {
+          width: 32%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #doctors {
+    .doctors {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--photos {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img {
+          width: 40%;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #doctors {
+    .doctors {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--photos {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img {
+          width: 75%;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #doctors {
+    .doctors {
+      h1 {
+        font-size: 43px;
+      }
+      p {
+        width: 80%;
+        margin: 0 auto;
+      }
+      &--photos {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img {
+          width: 80%;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #doctors {
+    .doctors {
+      h1 {
+        font-size: 42px;
+      }
+      p {
+        width: 80%;
+        margin: 0 auto;
+      }
+      &--photos {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img {
+          width: 90%;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #doctors {
+    .doctors {
+      h1 {
+        font-size: 43px;
+      }
+      p {
+        width: 80%;
+        margin: 0 auto;
+      }
+      &--photos {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img {
+          width: 90%;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #doctors {
+    padding-top: 250px;
+    .doctors {
+      h1 {
+        font-size: 38px;
+      }
+      p {
+        width: 80%;
+        margin: 0 auto;
+      }
+      &--photos {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img {
+          width: 90%;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+}
