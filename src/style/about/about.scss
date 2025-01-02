@@ -560,9 +560,10 @@
   #about {
     .about {
       h1 {
-
+        font-size: 43px;
       }
       p {
+        font-size: 19px;
         width: 90%;
         margin: 0 auto;
       }
@@ -571,8 +572,8 @@
         &__text {
           padding-bottom: 40px;
           h2 {
-            line-height: 53px;
-            font-size: 39px;
+            line-height: 47px;
+            font-size: 32px;
             margin: 0 auto;
             width: 90%;
           }
@@ -586,35 +587,40 @@
             margin: 0 auto;
           }
           &--block {
-            right: 0;
+            right: -10px;
+            bottom: 35px;
             &__one {
-              padding: 10px 10px 0 15px;
-              width: 180px;
-              height: 190px;
+              padding: 10px 10px 0 10px;
+              width: 40%;
+              height: 210px;
               h4 {
 
               }
               h5 {
-                line-height: 45px;
-                font-size: 52px;
+                line-height: 32px;
+                font-size: 40px;
               }
               p {
-                width: 150px;
+                line-height: 23px;
+                width: 130px;
+                font-size: 17px;
               }
             }
             &__two {
-              padding: 10px 10px 0 15px;
-              width: 180px;
-              height: 190px;
+              padding: 10px 10px 0 10px;
+              width: 40%;
+              height: 210px;
               h4 {
 
               }
               h5 {
-                font-size: 52px;
-                line-height: 45px;
+                font-size: 40px;
+                line-height: 32px;
               }
               p {
-                width: 150px;
+                line-height: 23px;
+                width: 130px;
+                font-size: 17px;
               }
             }
           }
