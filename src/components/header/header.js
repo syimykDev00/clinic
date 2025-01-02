@@ -17,12 +17,8 @@ const Header = () => {
 
                     {/* Навигация */}
                     <nav className="header--nav">
-                        <NavLink to="/#about" className="header--nav__link">
-                            О клинике
-                        </NavLink>
-                        <NavLink to="/#ourServices" className="header--nav__link">
-                            Услуги
-                        </NavLink>
+                        <a href="/#about" className="header--nav__link"> О клинике</a>
+                        <a href="/#ourServices" className="header--nav__link">Услуги</a>
                         <a
                             href={`https://wa.me/${myNumber}?text=Здравствуйте, хочу записаться.`}
                             className="header--nav__link"
