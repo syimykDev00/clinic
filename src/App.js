@@ -17,7 +17,7 @@ const App = () => {
             <Routes>
                 <Route path={'/'} element={<Home/>}/>
                 {/*<Route path={'/dentist'} element={<Stomatology/>}/>*/}
-                {/*<Route path={'/surgery'} element={<Hirurgia/>}/>*/}
+                <Route path={'/surgery'} element={<Hirurgia/>}/>
                 {/*<Route path={'/therapy'} element={<Therapy/>}/>*/}
                 {/*<Route path={'/oculist'} element={<Okulist/>}/>*/}
                 {/*<Route path={'/laboratory'} element={<Labaratory/>}/>*/}

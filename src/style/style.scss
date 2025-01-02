@@ -46,7 +46,12 @@ html {
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+// Импорт хедера и футера и карты
 @import './header/header.scss';
+@import 'footer/footer.scss';
+@import './maps/maps.scss';
+
+// Импорт секшинов главной страницы
 @import './hero/hero.scss';
 @import './ourServices/ourServices.scss';
 @import './priceList/priceList.scss';
@@ -54,5 +59,16 @@ html {
 @import './ourDoctors/ourDoctors.scss';
 @import './faq/faq.scss';
 @import './reviews/reviews.scss';
-@import './maps/maps.scss';
-@import 'footer/footer.scss';
+
+
+// Импорт секшинов хирургии
+@import './hirurgiaHero/hirurgiaHero.scss';
+@import './esthete/esthete.scss';
+@import './direction/direction.scss';
+@import './about/about.scss';
+@import './advantages/advantages.scss';
+@import './hirurgiaReviews/hirurgiaReviews.scss';
+
+
+
+
