@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
 
-    const myNumber = +996224192939
+    const myNumber = +996776000000
 
     return (
         <section id="hero">
