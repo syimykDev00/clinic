@@ -1,10 +1,13 @@
 import React from 'react';
+import LabaratoryHero from "./labaratoryHero/labaratoryHero";
+import LabaratoryPriceList from "./labaratoryPriceList/labaratoryPriceList";
 
 const Labaratory = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <LabaratoryHero />
+            <LabaratoryPriceList />
+        </>
     );
 };
 

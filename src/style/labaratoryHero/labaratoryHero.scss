@@ -1,0 +1,227 @@
+#labaratoryHero {
+  background: url("../../assets/img/labaratoryHeroBg.png") no-repeat center/cover;
+  min-height: 100vh;
+
+  .labaratoryHero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 75px;
+
+    h1 {
+      color: #FFF;
+      font-size: 45px;
+      font-weight: 800;
+      line-height: 65px;
+    }
+
+    p {
+      width: 90%;
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 15px 0 30px 0;
+      line-height: 28px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #labaratoryHero {
+    .labaratoryHero {
+      h1 {
+
+      }
+      p {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #labaratoryHero {
+    .labaratoryHero {
+      min-height: 105vh;
+      h1 {
+
+      }
+      p {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #labaratoryHero {
+    .labaratoryHero {
+      min-height: 110vh;
+      h1 {
+
+      }
+      p {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #labaratoryHero {
+    .labaratoryHero {
+      min-height: 110vh;
+      h1 {
+        width: 100%;
+        line-height: 53px;
+        font-size: 43px;
+      }
+
+      p {
+        width: 90%;
+        line-height: 28px;
+      }
+
+      a {
+        button {
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #labaratoryHero {
+    .labaratoryHero {
+      min-height: 110vh;
+      h1 {
+        width: 100%;
+        line-height: 53px;
+        font-size: 42px;
+      }
+
+      p {
+        width: 90%;
+        line-height: 28px;
+      }
+
+      a {
+        button {
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #labaratoryHero {
+    .labaratoryHero {
+      min-height: 120vh;
+      h1 {
+        width: 100%;
+        line-height: 49px;
+        font-size: 38px;
+      }
+
+      p {
+        width: 90%;
+        line-height: 28px;
+      }
+
+      a {
+        button {
+          padding: 10px 45px;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #labaratoryHero {
+    .labaratoryHero {
+      min-height: 130vh;
+      h1 {
+        width: 100%;
+        line-height: 44px;
+        font-size: 32px;
+      }
+
+      p {
+        width: 90%;
+        font-size: 18px;
+        line-height: 28px;
+      }
+
+      a {
+        button {
+          padding: 10px 42px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #labaratoryHero {
+    .labaratoryHero {
+      h1 {
+        width: 100%;
+        line-height: 44px;
+        font-size: 34px;
+      }
+
+      p {
+        width: 90%;
+        font-size: 19px;
+        line-height: 28px;
+      }
+
+      a {
+        button {
+          padding: 10px 42px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #labaratoryHero  {
+    .labaratoryHero {
+      min-height: 135vh;
+      h1 {
+        width: 100%;
+        line-height: 38px;
+        font-size: 27px;
+      }
+
+      p {
+        width: 90%;
+        font-size: 18px;
+        line-height: 28px;
+      }
+
+      a {
+        button {
+          padding: 10px 33px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

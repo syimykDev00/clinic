@@ -20,7 +20,7 @@ const App = () => {
                 <Route path={'/surgery'} element={<Hirurgia/>}/>
                 <Route path={'/therapy'} element={<Therapy/>}/>
                 <Route path={'/oculist'} element={<Okulist/>}/>
-                {/*<Route path={'/laboratory'} element={<Labaratory/>}/>*/}
+                <Route path={'/laboratory'} element={<Labaratory/>}/>
                 {/*<Route path={'/gynecologist'} element={<Gynecologiya/>}/>*/}
                 {/*<Route path={'/urology'} element={<Urology/>}/>*/}
                 {/*<Route path={'/lor'} element={<Lor/>}/>*/}
