@@ -1,0 +1,326 @@
+#appointment {
+  padding: 100px 0;
+  .appointment {
+    h1 {
+      font-size: 45px;
+      font-weight: 700;
+      color: #161719;
+      text-align: center;
+    }
+    &__general {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &--text {
+        width: 50%;
+        p {
+          font-size: 19px;
+          font-weight: 500;
+          line-height: 28.9px;
+          color: #161719;
+          width: 100%;
+          padding: 20px 0;
+        }
+        h6 {
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 28.9px;
+          color: #161719;
+          padding: 0 0 20px 0;
+        }
+        ul {
+          padding-bottom: 5px;
+          font-weight: 400;
+          color: #161719;
+          font-size: 16px;
+          li {
+
+          }
+        }
+      }
+      img {
+        width: 610px;
+        height: 610px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #appointment {
+    .appointment {
+      h1 {
+
+      }
+      &__general {
+        &--text {
+          p {
+
+          }
+          h6 {
+
+          }
+          ul {
+            li {
+
+            }
+          }
+        }
+        img {
+          width: 580px;
+          height: 580px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #appointment {
+    .appointment {
+      h1 {
+
+      }
+      &__general {
+        &--text {
+          p {
+
+          }
+          h6 {
+
+          }
+          ul {
+            li {
+
+            }
+          }
+        }
+        img {
+          width: 580px;
+          height: 580px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #appointment {
+    .appointment {
+      h1 {
+        font-size: 44px;
+      }
+      &__general {
+        &--text {
+          p {
+
+          }
+          h6 {
+
+          }
+          ul {
+            li {
+
+            }
+          }
+        }
+        img {
+          width: 570px;
+          height: 570px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #appointment {
+    .appointment {
+      h1 {
+        font-size: 41px;
+      }
+      &__general {
+        flex-direction: column;
+        &--text {
+          p {
+            line-height: 27px;
+          }
+          h6 {
+            line-height: 24.9px;
+          }
+          ul {
+            li {
+
+            }
+          }
+        }
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #appointment {
+    .appointment {
+      h1 {
+        font-size: 41px;
+        line-height: 50px;
+      }
+      &__general {
+        flex-direction: column;
+        &--text {
+          p {
+
+          }
+          h6 {
+
+          }
+          ul {
+            li {
+
+            }
+          }
+        }
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #appointment {
+    .appointment {
+      h1 {
+        font-size: 41px;
+        line-height: 46px;
+      }
+      &__general {
+        flex-direction: column;
+        &--text {
+          p {
+
+          }
+          h6 {
+
+          }
+          ul {
+            li {
+
+            }
+          }
+        }
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #appointment {
+    .appointment {
+      h1 {
+        font-size: 38px;
+        line-height: 41px;
+      }
+      &__general {
+        flex-direction: column;
+        &--text {
+          p {
+
+          }
+          h6 {
+
+          }
+          ul {
+            li {
+
+            }
+          }
+        }
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #appointment {
+    .appointment {
+      h1 {
+        font-size: 37px;
+        line-height: 40px;
+      }
+      &__general {
+        flex-direction: column;
+        &--text {
+          p {
+
+          }
+          h6 {
+
+          }
+          ul {
+            li {
+
+            }
+          }
+        }
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #appointment {
+    .appointment {
+      h1 {
+        font-size: 32px;
+        line-height: 37px;
+      }
+      &__general {
+        flex-direction: column;
+        &--text {
+          p {
+
+          }
+          h6 {
+
+          }
+          ul {
+            li {
+
+            }
+          }
+        }
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+

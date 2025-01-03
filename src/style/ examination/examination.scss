@@ -1,0 +1,176 @@
+#examination {
+  padding: 30px 0 100px 0;
+  .examination {
+    h1 {
+      font-size: 45px;
+      font-weight: 700;
+      color: #161719;
+      padding: 25px 0 20px 0;
+    }
+    p {
+      width: 90%;
+      font-size: 19px;
+      font-weight: 400;
+      color: #161719;
+      line-height: 28.9px;
+    }
+    img {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      padding-top: 40px;
+    }
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+  #examination {
+    .examination {
+      h1 {
+        font-size: 44px;
+      }
+      p {
+
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #examination {
+    .examination {
+      h1 {
+        font-size: 44px;
+      }
+      p {
+
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #examination {
+    .examination {
+      h1 {
+        font-size: 42px;
+      }
+      p {
+
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #examination {
+    .examination {
+      h1 {
+        font-size: 42px;
+        line-height: 50px;
+      }
+      p {
+
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #examination {
+    .examination {
+      h1 {
+        width: 90%;
+        font-size: 39px;
+        line-height: 50px;
+      }
+      p {
+
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #examination {
+    .examination {
+      h1 {
+        width: 90%;
+        font-size: 37px;
+        line-height: 45px;
+      }
+      p {
+        font-size: 18px;
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #examination {
+    .examination {
+      h1 {
+        width: 90%;
+        font-size: 37px;
+        line-height: 44px;
+      }
+      p {
+        font-size: 18px;
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #examination {
+    .examination {
+      h1 {
+        width: 90%;
+        font-size: 31px;
+        line-height: 39px;
+      }
+      p {
+        font-size: 18px;
+      }
+      img {
+
+      }
+    }
+  }
+}
