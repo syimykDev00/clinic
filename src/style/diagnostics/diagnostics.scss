@@ -1,0 +1,219 @@
+#diagnostics {
+  padding: 40px 0 100px 0;
+  .diagnostics {
+    h1 {
+      text-align: center;
+      color: #161719;
+      font-size: 45px;
+      font-weight: 700;
+      padding: 0 0 55px 0;
+    }
+    p {
+      width: 100%;
+      color: #161719;
+      padding-bottom: 25px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28.9px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 45px;
+      font-weight: 700;
+      color: #161719;
+      padding: 115px 0 55px 0;
+      text-align: center;
+    }
+    h6 {
+      width: 100%;
+      font-size: 20px;
+      font-weight: 400;
+      color: #161719;
+      line-height: 28.9px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+  #diagnostics {
+    .diagnostics {
+      h1 {
+        font-size: 43px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h2 {
+        font-size: 44px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #diagnostics {
+    .diagnostics {
+      h1 {
+        font-size: 43px;
+        line-height: 58px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h2 {
+        font-size: 44px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #diagnostics {
+    .diagnostics {
+      h1 {
+        width: 100%;
+        font-size: 39px;
+        line-height: 52px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h2 {
+        font-size: 41px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #diagnostics {
+    .diagnostics {
+      h1 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 39px;
+        line-height: 52px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h2 {
+        line-height: 49px;
+        font-size: 40px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #diagnostics {
+    .diagnostics {
+      h1 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 38px;
+        line-height: 52px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h2 {
+        line-height: 48px;
+        font-size: 40px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #diagnostics {
+    .diagnostics {
+      h1 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 38px;
+        line-height: 52px;
+      }
+      p {
+        font-size: 19px;
+        width: 90%;
+        margin: 0 auto;
+      }
+      h2 {
+        line-height: 47px;
+        font-size: 38px;
+      }
+      h6 {
+        font-size: 19px;
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #diagnostics {
+    .diagnostics {
+      h1 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 37px;
+        line-height: 50px;
+      }
+      p {
+        font-size: 19px;
+        width: 90%;
+        margin: 0 auto;
+      }
+      h2 {
+        line-height: 45px;
+        font-size: 37px;
+      }
+      h6 {
+        font-size: 19px;
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
