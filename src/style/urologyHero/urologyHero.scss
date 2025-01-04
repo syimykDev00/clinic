@@ -1,0 +1,250 @@
+#urologyHero {
+  background: url("../../assets/img/urologyHeroBg.png") no-repeat center/cover;
+  min-height: 100vh;
+  .urologyHero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+
+    h1 {
+      color: #FFF;
+      font-size: 45px;
+      font-weight: 800;
+      margin: 0 auto;
+    }
+
+    p {
+      width: 90%;
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 15px 0 30px 0;
+      line-height: 28px;
+      margin: 0 auto;
+    }
+
+    a {
+      button {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 500;
+        border-radius: 10px;
+        border: 2px solid #40B1DE;
+        margin: 0 auto;
+        padding: 10px 50px;
+        background: transparent;
+        position: relative;
+        z-index: 1;
+
+        &:after {
+          position: absolute;
+          content: "";
+          width: 0;
+          height: 100%;
+          top: 0;
+          right: 0;
+          z-index: -1;
+          background: rgba(255, 255, 255, 0.62);
+          backdrop-filter: blur(10px);
+          border-radius: 10px;
+          box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, .5),
+          7px 7px 20px 0 rgba(0, 0, 0, .1),
+          4px 4px 5px 0 rgba(0, 0, 0, .1);
+          transition: all 0.3s ease;
+        }
+
+        &:hover {
+          color: white;
+        }
+
+        &:hover:after {
+          left: 0;
+          width: 100%;
+        }
+
+        &:active {
+          top: 2px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  #urologyHero {
+    .urologyHero {
+      min-height: 115vh;
+      h1 {
+
+      }
+      p {
+
+      }
+      a {
+        button {
+
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  #urologyHero {
+    .urologyHero {
+      h1 {
+
+      }
+      p {
+
+      }
+      a {
+        button {
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #urologyHero {
+    .urologyHero {
+      min-height: 120vh;
+      h1 {
+        width: 100%;
+        font-size: 45px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      a {
+        button {
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #urologyHero {
+    .urologyHero {
+      min-height: 130vh;
+
+      h1 {
+        width: 100%;
+        font-size: 43px;
+      }
+
+      p {
+        font-size: 19px;
+      }
+
+      a {
+        button {
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #urologyHero {
+    .urologyHero {
+      min-height: 145vh;
+      h1 {
+        font-size: 39px;
+      }
+      p {
+        font-size: 19px;
+      }
+      a {
+        button {
+          padding: 10px 45px;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #urologyHero {
+    .urologyHero {
+      min-height: 155vh;
+      h1 {
+        line-height: 46px;
+        font-size: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
+      a {
+        button {
+          padding: 10px 42px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #urologyHero {
+    .urologyHero {
+      min-height: 160vh;
+      h1 {
+        font-size: 39px;
+      }
+      p {
+        font-size: 18px;
+      }
+      a {
+        button {
+          padding: 10px 42px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #urologyHero {
+    .urologyHero {
+      min-height: 180vh;
+      h1 {
+        font-size: 38px;
+        line-height: 43px;
+      }
+      p {
+
+      }
+      a {
+        button {
+          padding: 10px 33px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
