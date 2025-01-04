@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PriceList = () => {
+const LabaratoryPriceList = () => {
 
     const date = [
         {
@@ -366,18 +366,18 @@ const PriceList = () => {
 
 
     return (
-        <section id="priceList">
+        <section id="labaratoryPriceList">
             <div className="container">
-                <div className="priceList">
+                <div className="labaratoryPriceList">
                     <h1>Прайс-лист</h1>
                     <p>
                         Доступные цены для всех различных вид услуг
                     </p>
-                    <div className="priceList--blocks">
-                        <div className="priceList--blocks__price">
+                    <div className="labaratoryPriceList--blocks">
+                        <div className="labaratoryPriceList--blocks__price">
                             {
                                 date.map((el) => (
-                                    <div className="priceList--blocks__price--block">
+                                    <div className="labaratoryPriceList--blocks__price--block">
                                         <h4>{el.id}. {el.text}
                                             <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
@@ -389,7 +389,7 @@ const PriceList = () => {
                                                     stroke="#40B1DE" strokeWidth="1.5" strokeLinecap="round"/>
                                             </svg>
                                         </h4>
-                                        <div className="priceList--blocks__price--block__line"></div>
+                                        <div className="labaratoryPriceList--blocks__price--block__line"></div>
                                         <h5>{el.price}</h5>
                                     </div>
 
@@ -403,4 +403,4 @@ const PriceList = () => {
     );
 };
 
-export default PriceList;
+export default LabaratoryPriceList;

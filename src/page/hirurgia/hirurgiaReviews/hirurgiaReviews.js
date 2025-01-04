@@ -18,16 +18,16 @@ const Reviews = () => {
     };
 
     return (
-        <section id="reviews">
+        <section id="hirurgiaReviews">
             <div className="container">
-                <div className="reviews">
+                <div className="hirurgiaReviews">
 
                     <h1>Отзывы</h1>
                     <p>Добрые слова от наших клиентов</p>
 
                     <Slider {...settings}>
-                        <div className="reviews--block">
-                            <div className="reviews--block__user">
+                        <div className="hirurgiaReviews--block">
+                            <div className="hirurgiaReviews--block__user">
                                 <img src={user} alt="img"/>
                                 <h4>Анара</h4>
                             </div>
@@ -40,8 +40,8 @@ const Reviews = () => {
                                 страховой! Благодарна за лечение. От себя рекомендую!
                             </h6>
                         </div>
-                        <div className="reviews--block">
-                            <div className="reviews--block__user">
+                        <div className="hirurgiaReviews--block">
+                            <div className="hirurgiaReviews--block__user">
                                 <img src={user} alt="img"/>
                                 <h4>Тимур</h4>
                             </div>
@@ -55,8 +55,8 @@ const Reviews = () => {
                                 отличная профессиональная медицинская команда!С уважением, Тимур!
                             </h6>
                         </div>
-                        <div className="reviews--block">
-                            <div className="reviews--block__user">
+                        <div className="hirurgiaReviews--block">
+                            <div className="hirurgiaReviews--block__user">
                                 <img src={user} alt="img"/>
                                 <h4>Жаныбек</h4>
                             </div>
@@ -67,8 +67,8 @@ const Reviews = () => {
                                 легкую атмосферу, а так же уважительное и внимательное отношение к пациенту.
                             </h6>
                         </div>
-                        <div className="reviews--block">
-                            <div className="reviews--block__user">
+                        <div className="hirurgiaReviews--block">
+                            <div className="hirurgiaReviews--block__user">
                                 <img src={user} alt="img"/>
                                 <h4>Анара</h4>
                             </div>
@@ -81,8 +81,8 @@ const Reviews = () => {
                                 страховой! Благодарна за лечение. От себя рекомендую!
                             </h6>
                         </div>
-                        <div className="reviews--block">
-                            <div className="reviews--block__user">
+                        <div className="hirurgiaReviews--block">
+                            <div className="hirurgiaReviews--block__user">
                                 <img src={user} alt="img"/>
                                 <h4>Тимур</h4>
                             </div>
@@ -96,8 +96,8 @@ const Reviews = () => {
                                 отличная профессиональная медицинская команда!С уважением, Тимур!
                             </h6>
                         </div>
-                        <div className="reviews--block">
-                            <div className="reviews--block__user">
+                        <div className="hirurgiaReviews--block">
+                            <div className="hirurgiaReviews--block__user">
                                 <img src={user} alt="img"/>
                                 <h4>Жаныбек</h4>
                             </div>

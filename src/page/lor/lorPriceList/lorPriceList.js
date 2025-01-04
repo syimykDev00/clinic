@@ -1,50 +1,49 @@
 import React from 'react';
-import therapyPriceListImg from './../../../assets/img/therapyPriceListImg.png'
 
-const TherapyPriceList = () => {
+const lorPriceList = () => {
 
     const date = [
         {
             id: 1,
-            text: "Первичный осмотр",
-            price: "500 сом"
+            text: "Прием врача терапевта, гастроэнтеролога",
+            price: "700 сом"
         },
         {
             id: 2,
-            text: "Повторный прием",
-            price: "100 сом"
+            text: "Прием врача невролога",
+            price: "1000 сом"
         },
         {
             id: 3,
-            text: "Короткая консультация",
-            price: "1000 сом"
+            text: "Прием врача эндокринолога",
+            price: "700 сом"
         },
         {
             id: 4,
-            text: "Полный осмотр",
-            price: "15000 сом"
+            text: "Прием врача иммунолога первичный (прием только с анализами)",
+            price: "1000 сом"
         },
         {
             id: 5,
-            text: "Проведение вакцинации",
-            price: "1000 сом"
+            text: "Прием врача уролог (с осмотром)",
+            price: "700 сом"
         },
     ]
 
 
     return (
-        <section id="therapyPriceList">
+        <section id="lorPriceList">
             <div className="container">
-                <div className="therapyPriceList">
+                <div className="lorPriceList">
                     <h1>Прайс-лист</h1>
                     <p>
                         Доступные цены для всех различных вид услуг
                     </p>
-                    <div className="therapyPriceList--blocks">
-                        <div className="therapyPriceList--blocks__price">
+                    <div className="lorPriceList--blocks">
+                        <div className="lorPriceList--blocks__price">
                             {
                                 date.map((el) => (
-                                    <div className="therapyPriceList--blocks__price--block">
+                                    <div className="lorPriceList--blocks__price--block">
                                         <h4>{el.id}. {el.text}
                                             <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
@@ -56,20 +55,12 @@ const TherapyPriceList = () => {
                                                     stroke="#40B1DE" strokeWidth="1.5" strokeLinecap="round"/>
                                             </svg>
                                         </h4>
-                                        <div className="therapyPriceList--blocks__price--block__line"></div>
+                                        <div className="lorPriceList--blocks__price--block__line"></div>
                                         <h5>{el.price}</h5>
                                     </div>
 
                                 ))
                             }
-                        </div>
-                        <div className="therapyPriceList--blocks__image">
-                            <img src={therapyPriceListImg} alt="img"/>
-                            <div className="therapyPriceList--blocks__image--text">
-                                <h2>Эстетическая Реконструкция улыбки</h2>
-                                <h6>Наш центр стоматологии предоставляет высококлассные услуги для поддержания здоровья
-                                    вашего устного полостью и создания красивой улыбки</h6>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,4 +69,4 @@ const TherapyPriceList = () => {
     );
 };
 
-export default TherapyPriceList;
+export default lorPriceList;
