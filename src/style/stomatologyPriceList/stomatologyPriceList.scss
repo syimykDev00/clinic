@@ -1,0 +1,579 @@
+#stomatologyPriceList {
+  padding: 0 0 150px 0;
+
+  .stomatologyPriceList {
+    h1 {
+      color: #161719;
+      font-size: 45px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p {
+      color: #535353;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 15px 0 55px 0;
+      text-align: center;
+    }
+
+    &--blocks {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__price {
+        width: 60%;
+        height: 410px;
+        overflow-y: scroll;
+
+
+        &--block {
+          display: flex;
+          align-items: center;
+
+          h4 {
+            color: #000;
+            font-size: 22px;
+            font-weight: 400;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+
+            svg {
+              padding-left: 5px;
+            }
+          }
+
+          h5 {
+            width: 14%;
+            color: #000;
+            font-size: 22px;
+            font-weight: 400;
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+          }
+
+          &__line {
+            width: 38%;
+            border: 1px dashed #ABABAB;
+            margin: 0 15px;
+          }
+        }
+      }
+
+      &__image {
+        width: 38%;
+        position: relative;
+
+        img {
+          width: 100%;
+        }
+
+        &--text {
+          position: absolute;
+          left: 27px;
+          bottom: 100px;
+
+          h2 {
+            width: 359px;
+            color: #FFF;
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 43px;
+          }
+
+          h6 {
+            width: 373px;
+            color: #F4F4F4;
+            font-size: 16px;
+            font-weight: 400;
+            padding-top: 12px;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #stomatologyPriceList {
+    .stomatologyPriceList {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--blocks {
+        &__price {
+          height: 370px;
+          &--block {
+            h4 {
+              svg {
+
+              }
+            }
+            &__line {
+
+            }
+            h5 {
+
+            }
+          }
+        }
+        &__image {
+          img {
+
+          }
+          &--text {
+            h2 {
+              line-height: 40px;
+              width: 100%;
+              font-size: 29px;
+            }
+            h6 {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #stomatologyPriceList {
+    .stomatologyPriceList {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--blocks {
+        flex-direction: column-reverse;
+        &__price {
+          height: 280px;
+          width: 90%;
+          &--block {
+            h4 {
+              svg {
+
+              }
+            }
+            &__line {
+              width: 35%;
+            }
+            h5 {
+              width: 14%;
+            }
+          }
+        }
+        &__image {
+          width: 50%;
+          img {
+            width: 100%;
+          }
+          margin-bottom: 50px;
+          &--text {
+            h2 {
+              line-height: 40px;
+              width: 90%;
+              font-size: 30px;
+            }
+            h6 {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #stomatologyPriceList {
+    .stomatologyPriceList {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--blocks {
+        flex-direction: column-reverse;
+        &__price {
+          height: 280px;
+          width: 90%;
+          &--block {
+            h4 {
+              svg {
+
+              }
+            }
+            &__line {
+              width: 35%;
+            }
+            h5 {
+              width: 14%;
+            }
+          }
+        }
+        &__image {
+          width: 50%;
+          img {
+            width: 100%;
+          }
+          margin-bottom: 50px;
+          &--text {
+            bottom: 80px;
+            h2 {
+              line-height: 40px;
+              width: 90%;
+              font-size: 30px;
+            }
+            h6 {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #stomatologyPriceList {
+    .stomatologyPriceList {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--blocks {
+        flex-direction: column-reverse;
+        &__price {
+          height: 250px;
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 20px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 30%;
+            }
+            h5 {
+              font-size: 20px;
+              width: 14%;
+            }
+          }
+        }
+        &__image {
+          width: 55%;
+          img {
+            width: 100%;
+          }
+          margin-bottom: 50px;
+          &--text {
+            bottom: 60px;
+            h2 {
+              line-height: 38px;
+              width: 90%;
+              font-size: 28px;
+            }
+            h6 {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #stomatologyPriceList {
+    .stomatologyPriceList {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--blocks {
+        flex-direction: column-reverse;
+        &__price {
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 18px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 28%;
+            }
+            h5 {
+              font-size: 18px;
+              width: 20%;
+            }
+          }
+        }
+        &__image {
+          width: 80%;
+          img {
+            width: 100%;
+          }
+          margin-bottom: 50px;
+          &--text {
+            bottom: 60px;
+            h2 {
+              line-height: 38px;
+              width: 90%;
+              font-size: 28px;
+            }
+            h6 {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #stomatologyPriceList {
+    .stomatologyPriceList {
+      h1 {
+        font-size: 43px;
+        font-weight: 700;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      &--blocks {
+        flex-direction: column-reverse;
+        &__price {
+          height: 230px;
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 18px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 26%;
+            }
+            h5 {
+              font-size: 18px;
+              width: 20%;
+            }
+          }
+        }
+        &__image {
+          width: 90%;
+          img {
+            width: 100%;
+          }
+          margin-bottom: 50px;
+          &--text {
+            bottom: 50px;
+            h2 {
+              line-height: 37px;
+              width: 90%;
+              font-size: 27px;
+            }
+            h6 {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #stomatologyPriceList {
+    .stomatologyPriceList {
+      h1 {
+        font-size: 42px;
+        font-weight: 700;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      &--blocks {
+        flex-direction: column-reverse;
+        &__price {
+          height: 200px;
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 17px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 28%;
+            }
+            h5 {
+              font-size: 17px;
+              width: 23%;
+            }
+          }
+        }
+        &__image {
+          width: 90%;
+          img {
+            width: 100%;
+          }
+          margin-bottom: 50px;
+          &--text {
+            bottom: 40px;
+            h2 {
+              line-height: 34px;
+              width: 90%;
+              font-size: 25px;
+            }
+            h6 {
+              font-size: 15px;
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #stomatologyPriceList {
+    .stomatologyPriceList {
+      h1 {
+        font-size: 43px;
+        font-weight: 700;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      &--blocks {
+        flex-direction: column-reverse;
+        &__price {
+          height: 160px;
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 17px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 28%;
+            }
+            h5 {
+              font-size: 17px;
+              width: 23%;
+            }
+          }
+        }
+        &__image {
+          width: 90%;
+          img {
+            width: 100%;
+          }
+          margin-bottom: 50px;
+          &--text {
+            bottom: 40px;
+            h2 {
+              line-height: 34px;
+              width: 90%;
+              font-size: 25px;
+            }
+            h6 {
+              font-size: 15px;
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #stomatologyPriceList {
+    .stomatologyPriceList {
+      h1 {
+        font-size: 40px;
+        font-weight: 700;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      &--blocks {
+        flex-direction: column-reverse;
+        &__price {
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 16px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 26%;
+            }
+            h5 {
+              font-size: 16px;
+              width: 25%;
+            }
+          }
+        }
+        &__image {
+          width: 90%;
+          img {
+            width: 100%;
+          }
+          margin-bottom: 50px;
+          &--text {
+            bottom: 30px;
+            h2 {
+              line-height: 28px;
+              width: 90%;
+              font-size: 22px;
+            }
+            h6 {
+              font-size: 14px;
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

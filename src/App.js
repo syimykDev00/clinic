@@ -4,7 +4,6 @@ import Home from "./page/home/home";
 import Stomatology from "./page/stomatology/stomatology";
 import Hirurgia from "./page/hirurgia/hirurgia";
 import Therapy from "./page/ therapy/therapy";
-import {CgOculus} from "react-icons/cg";
 import Okulist from "./page/okulist/okulist";
 import Labaratory from "./page/labaratory/labaratory";
 import Gynecologiya from "./page/gynecologiya/gynecologiya";
@@ -16,7 +15,7 @@ const App = () => {
         <>
             <Routes>
                 <Route path={'/'} element={<Home/>}/>
-                {/*<Route path={'/dentist'} element={<Stomatology/>}/>*/}
+                <Route path={'/dentist'} element={<Stomatology/>}/>
                 <Route path={'/surgery'} element={<Hirurgia/>}/>
                 <Route path={'/therapy'} element={<Therapy/>}/>
                 <Route path={'/oculist'} element={<Okulist/>}/>

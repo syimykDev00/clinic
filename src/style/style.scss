@@ -61,10 +61,21 @@ html {
 @import './reviews/reviews.scss';
 
 
+// Импорт секшинов главной страницы
+@import './stomatologyHero/stomatologyHero.scss';
+@import './stomatologyAbout/stomatologyAbout.scss';
+@import './stomatologyClients/stomatologyClients.scss';
+@import './stomatologyReviews/stomatologyReviews.scss';
+@import './stomatologyWhy/stomatologyWhy.scss';
+@import './stomatologyPriceList/stomatologyPriceList.scss';
+@import './stomatologyFaq/stomatologyFaq.scss';
+
+
 // Импорт секшинов хирургии
 @import './hirurgiaHero/hirurgiaHero.scss';
 @import './esthete/esthete.scss';
 @import './direction/direction.scss';
+@import './hirurgiaAbout/hirurgiaAbout.scss';
 @import './about/about.scss';
 @import './advantages/advantages.scss';
 @import './hirurgiaReviews/hirurgiaReviews.scss';
@@ -102,6 +113,7 @@ html {
 // Импорт секшинов Урологии
 @import './urologyHero/urologyHero.scss';
 @import './urologyFaq/urologyFaq.scss';
+@import './urologyAbout/urologyAbout.scss';
 @import './urologyPriceList/urologyPriceList.scss';
 @import './urologyReviews/urologyReviews.scss';
 

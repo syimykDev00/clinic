@@ -4,13 +4,14 @@ import UrologyFaq from "./urologyFaq/urologyFaq";
 import About from "../home/about/about";
 import UrologyPriceList from "./urologyPriceList/urologyPriceList";
 import UrologyReviews from "./urologyReviews/urologyReviews";
+import UrologyAbout from "./urologyAbout/urologyAbout";
 
 const Urology = () => {
     return (
         <>
             <UrologyHero/>
             <UrologyFaq/>
-            <About/>
+            <UrologyAbout/>
             <UrologyPriceList/>
             <UrologyReviews/>
         </>

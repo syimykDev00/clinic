@@ -2,9 +2,9 @@ import React from 'react';
 import HirurgiaHero from "./hirurgiaHero/hirurgiaHero";
 import Esthete from "./esthete/esthete";
 import Direction from "./direction/direction";
-import About from "../home/about/about";
 import Advantages from "./advantages/advantages";
 import HirurgiaReviews from "./hirurgiaReviews/hirurgiaReviews";
+import HirurgiaAbout from "./hirurgiaAbout/hirurgiaAbout";
 
 const Hirurgia = () => {
     return (
@@ -12,7 +12,7 @@ const Hirurgia = () => {
             <HirurgiaHero />
             <Esthete/>
             <Direction/>
-            <About/>
+            <HirurgiaAbout/>
             <Advantages/>
             <HirurgiaReviews/>
         </>
