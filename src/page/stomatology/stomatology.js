@@ -6,12 +6,14 @@ import StomatologyReviews from "./stomatologyReviews/stomatologyReviews";
 import StomatologyWhy from "./stomatologyWhy/stomatologyWhy";
 import StomatologyPriceList from "./stomatologyPriceList/stomatologyPriceList";
 import StomatologyFaq from './stomatologyFaq/stomatologyFaq';
+import StomatologyOurServices from "./stomatologyOurServices/stomatologyOurServices";
 
 const Stomatology = () => {
     return (
         <>
             <StomatologyHero/>
             <StomatologyAbout/>
+            <StomatologyOurServices/>
             <StomatologyClients/>
             <StomatologyReviews/>
             <StomatologyWhy/>

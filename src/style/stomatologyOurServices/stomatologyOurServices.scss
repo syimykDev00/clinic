@@ -1,0 +1,296 @@
+#stomatologyOurServices {
+  padding: 50px 0;
+  .stomatologyOurServices {
+    h1 {
+      color: #161719;
+      font-size: 45px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p {
+      color: #535353;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      padding: 15px 0 55px 0;
+    }
+
+    &--blocks {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      div {
+        width: 173px;
+        height: 160px;
+        border-radius: 45px;
+        background: #F8F9FB;
+        box-shadow: 5px 5px 15px 0 rgba(133, 195, 220, 0.25), -5px -5px 10px 0px #FEFEFE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 0 55px 60px 55px;
+        border: 2px solid transparent;
+        transition: .4s;
+
+        &:hover {
+          border: 2px solid #40B1DE;
+          scale: 1.1;
+        }
+
+        h3 {
+          color: #161719;
+          font-size: 20px;
+          padding-top: 10px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #stomatologyOurServices {
+    .stomatologyOurServices {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--blocks {
+        div {
+          margin: 0 40px 60px 40px;
+          img {
+
+          }
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #stomatologyOurServices {
+    .stomatologyOurServices {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--blocks {
+        div {
+          margin: 0 25px 60px 25px;
+          img {
+
+          }
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #stomatologyOurServices {
+    .stomatologyOurServices {
+      h1 {
+
+      }
+      p {
+
+      }
+      &--blocks {
+        div {
+          margin: 0 20px 60px 20px;
+          img {
+
+          }
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #stomatologyOurServices {
+    .stomatologyOurServices{
+      h1 {
+        font-size: 44px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      &--blocks {
+        justify-content: space-around;
+        div {
+          margin: 0 30px 60px 30px;
+          img {
+
+          }
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #stomatologyOurServices {
+    .stomatologyOurServices {
+      h1 {
+        font-size: 44px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      &--blocks {
+        justify-content: space-around;
+        div {
+          margin: 0 30px 60px 30px;
+          img {
+
+          }
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #stomatologyOurServices {
+    .stomatologyOurServices {
+      h1 {
+        line-height: 53px;
+        font-size: 43px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      &--blocks {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        div {
+          margin: 0 0 60px 0;
+          img {
+
+          }
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #stomatologyOurServices {
+    .stomatologyOurServices {
+      h1 {
+        line-height: 50px;
+        font-size: 38px;
+      }
+      p {
+        width: 90%;
+        font-size: 19px;
+        margin: 0 auto;
+      }
+      &--blocks {
+        justify-content: space-around;
+        div {
+          margin: 0 30px 60px 30px;
+          img {
+
+          }
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #stomatologyOurServices {
+    .stomatologyOurServices {
+      h1 {
+        line-height: 49px;
+        font-size: 40px;
+      }
+      p {
+        width: 90%;
+        font-size: 19px;
+        margin: 0 auto;
+      }
+      &--blocks {
+        justify-content: space-around;
+        div {
+          margin: 0 30px 60px 30px;
+          img {
+
+          }
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #stomatologyOurServices {
+    .stomatologyOurServices {
+      h1 {
+        font-size: 36px;
+        line-height: 44px;
+      }
+      p {
+        width: 90%;
+        font-size: 19px;
+        margin: 0 auto;
+      }
+      &--blocks {
+        justify-content: space-around;
+        div {
+          margin: 0 30px 60px 30px;
+          img {
+
+          }
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}

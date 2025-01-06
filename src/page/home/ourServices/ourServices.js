@@ -32,7 +32,7 @@ const OurServices = () => {
                                 <h3>Хирургия</h3>
                             </div>
                         </NavLink>
-                        <NavLink to={'therapy'}>
+                        <NavLink to={'/therapy'}>
                             <div>
                                 <img src={three} alt={alt}/>
                                 <h3>Терапия</h3>

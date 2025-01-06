@@ -61,14 +61,26 @@ html {
 @import './reviews/reviews.scss';
 
 
-// Импорт секшинов главной страницы
+// Импорт секшинов стоматологии
 @import './stomatologyHero/stomatologyHero.scss';
 @import './stomatologyAbout/stomatologyAbout.scss';
+@import './stomatologyOurServices/stomatologyOurServices.scss';
 @import './stomatologyClients/stomatologyClients.scss';
 @import './stomatologyReviews/stomatologyReviews.scss';
 @import './stomatologyWhy/stomatologyWhy.scss';
 @import './stomatologyPriceList/stomatologyPriceList.scss';
 @import './stomatologyFaq/stomatologyFaq.scss';
+
+
+// Импорт секшинов имплантации (стоматология)
+@import './implantationHero/implantationHero.scss';
+@import './implantationProblem/implantationProblem.scss';
+@import './implantationSpecies/implantationSpecies.scss';
+@import './implantationFaq/implantationFaq.scss';
+
+
+// Импорт секшинов ортопедии (стоматология)
+@import './orthopedicsHero/orthopedicsHero.scss';
 
 
 // Импорт секшинов хирургии

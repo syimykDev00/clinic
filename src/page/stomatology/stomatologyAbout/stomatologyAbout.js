@@ -1,5 +1,5 @@
 import React from 'react';
-import stomatologyAboutImg from './../../../assets/img/stomatologyAboutImg.png'
+import stomatologyAboutImg from './../../../assets/img/stomatologyAboutImg.png';
 
 const stomatologyAbout = () => {
     return (

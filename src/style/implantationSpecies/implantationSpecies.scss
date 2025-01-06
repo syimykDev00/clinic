@@ -1,0 +1,415 @@
+#implantationSpecies {
+  padding: 0 0 100px 0;
+  .implantationSpecies {
+    h1 {
+      font-size: 45px;
+      font-weight: 700;
+      text-align: center;
+      color: #161719;
+    }
+    h2 {
+      font-size: 35px;
+      padding: 25px 0 40px 0;
+      font-weight: 600;
+      text-align: center;
+      color: #161719;
+    }
+    &--general {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      //justify-content: space-evenly;
+      //align-items: start;
+      &__groupOne {
+        width: 70%;
+        height: 100%;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 35px 0;
+        border: 3px solid #6CD5FF;
+        transition: .4s;
+        border-radius: 3px;
+        &:hover {
+          background: linear-gradient(45deg, #6CD5FF, white, #6CD5FF);
+        }
+        h3 {
+          font-size: 30px;
+          padding: 0 0 20px 0;
+          font-weight: 600;
+          text-align: center;
+          color: #161719;
+        }
+        h4 {
+          width: 90%;
+          font-size: 22px;
+          padding: 0 0 20px 0;
+          font-weight: 500;
+          text-align: center;
+          color: #161719;
+        }
+      }
+      &__groupTwo {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 35px 0;
+        border: 3px solid #6CD5FF;
+        transition: .4s;
+        &:hover {
+          background: linear-gradient(45deg, #6CD5FF, white, #6CD5FF);
+        }
+        h3 {
+          font-size: 30px;
+          padding: 0 0 20px 0;
+          font-weight: 600;
+          text-align: center;
+          color: #161719;
+        }
+        h4 {
+          width: 90%;
+          font-size: 22px;
+          padding: 0 0 20px 0;
+          font-weight: 500;
+          text-align: center;
+          color: #161719;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #implantationSpecies {
+    .implantationSpecies {
+      h1 {
+
+      }
+      h2 {
+        font-size: 34px;
+      }
+      &--general {
+        &__groupOne {
+          h3 {
+
+          }
+          h4 {
+
+          }
+        }
+        &__groupTwo {
+          h3 {
+
+          }
+          h4 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #implantationSpecies {
+    .implantationSpecies {
+      h1 {
+        font-size: 44px;
+      }
+      h2 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 43px;
+        font-size: 33px;
+      }
+      &--general {
+        &__groupOne {
+          h3 {
+
+          }
+          h4 {
+
+          }
+        }
+        &__groupTwo {
+          h3 {
+
+          }
+          h4 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #implantationSpecies {
+    .implantationSpecies {
+      h1 {
+        font-size: 43px;
+      }
+      h2 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 41px;
+        font-size: 31px;
+      }
+      &--general {
+        &__groupOne {
+          h3 {
+
+          }
+          h4 {
+
+          }
+        }
+        &__groupTwo {
+          h3 {
+
+          }
+          h4 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #implantationSpecies {
+    .implantationSpecies {
+      h1 {
+        font-size: 41px;
+      }
+      h2 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 38px;
+        font-size: 30px;
+      }
+      &--general {
+        &__groupOne {
+          h3 {
+            font-size: 27px;
+          }
+          h4 {
+            font-size: 21px;
+          }
+        }
+        &__groupTwo {
+          h3 {
+            font-size: 27px;
+          }
+          h4 {
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #implantationSpecies {
+    .implantationSpecies {
+      h1 {
+        font-size: 39px;
+      }
+      h2 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 38px;
+        font-size: 28px;
+      }
+      &--general {
+        &__groupOne {
+          h3 {
+            font-size: 26px;
+          }
+          h4 {
+            font-size: 20px;
+          }
+        }
+        &__groupTwo {
+          h3 {
+            font-size: 26px;
+          }
+          h4 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #implantationSpecies {
+    .implantationSpecies {
+      h1 {
+        font-size: 35px;
+      }
+      h2 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 36px;
+        font-size: 26px;
+      }
+      &--general {
+        &__groupOne {
+          width: 80%;
+          padding: 25px 0;
+          h3 {
+            font-size: 24px;
+          }
+          h4 {
+            font-size: 19px;
+          }
+        }
+        &__groupTwo {
+          width: 80%;
+          padding: 25px 0;
+          h3 {
+            font-size: 24px;
+          }
+          h4 {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #implantationSpecies {
+    .implantationSpecies {
+      h1 {
+        font-size: 31px;
+      }
+      h2 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 31px;
+        font-size: 24px;
+      }
+      &--general {
+        &__groupOne {
+          width: 90%;
+          padding: 25px 0;
+          h3 {
+            font-size: 22px;
+          }
+          h4 {
+            font-size: 18px;
+          }
+        }
+        &__groupTwo {
+          width: 90%;
+          padding: 25px 0;
+          h3 {
+            font-size: 22px;
+          }
+          h4 {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #implantationSpecies {
+    .implantationSpecies {
+      h1 {
+        font-size: 30px;
+      }
+      h2 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 32px;
+        font-size: 23px;
+      }
+      &--general {
+        &__groupOne {
+          width: 90%;
+          padding: 25px 0;
+          h3 {
+            font-size: 22px;
+          }
+          h4 {
+            font-size: 18px;
+          }
+        }
+        &__groupTwo {
+          width: 90%;
+          padding: 25px 0;
+          h3 {
+            font-size: 22px;
+          }
+          h4 {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #implantationSpecies {
+    .implantationSpecies {
+      h1 {
+        width: 90%;
+        line-height: 35px;
+        margin: 0 auto;
+        font-size: 31px;
+      }
+      h2 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 30px;
+        font-size: 22px;
+      }
+      &--general {
+        &__groupOne {
+          width: 90%;
+          padding: 25px 0;
+          h3 {
+            font-size: 21px;
+          }
+          h4 {
+            font-size: 17px;
+          }
+        }
+        &__groupTwo {
+          width: 90%;
+          padding: 25px 0;
+          h3 {
+            font-size: 21px;
+          }
+          h4 {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}

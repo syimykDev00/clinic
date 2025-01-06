@@ -41,9 +41,9 @@ export default
 
 function App() {
     return (
-        <section id="faqLor">
+        <section id="implantationFaq">
             <div className="container">
-                <div className="faqLor">
+                <div className="implantationFaq">
 
                     <h1>С какими симптомами следует
                         обращаться к лору?</h1>
