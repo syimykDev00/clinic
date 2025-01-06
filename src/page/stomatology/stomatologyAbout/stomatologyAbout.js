@@ -1,4 +1,5 @@
 import React from 'react';
+import stomatologyAboutImg from './../../../assets/img/stomatologyAboutImg.png'
 
 const stomatologyAbout = () => {
     return (
@@ -6,7 +7,7 @@ const stomatologyAbout = () => {
             <div className="container">
                 <div className="stomatologyAbout">
 
-                    <img src={'http://localhost:3001/static/media/dentistAbout.eb8faee54d674673b082.png'} alt="img"/>
+                    <img src={stomatologyAboutImg} alt="img"/>
 
                     <div className="stomatologyAbout--text">
                         <h1>Здравствуйте! Меня зовут Бекмамат Айдаров.</h1>

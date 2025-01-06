@@ -1,4 +1,7 @@
 import React from 'react';
+import stomatologyClientsImgOne from './../../../assets/img/stomatologyClientsImgOne.png'
+import stomatologyClientsImgTwo from './../../../assets/img/stomatologyClientsImgTwo.png'
+import stomatologyClientsImgThree from './../../../assets/img/stomatologyClientsImgThree.png'
 
 const StomatologyClients = () => {
     return (
@@ -10,9 +13,9 @@ const StomatologyClients = () => {
                     <p>Наши довольные клиенты по всему Кыргызстану</p>
 
                     <div className="stomatologyClients--blocks">
-                        <img src={'http://localhost:3001/static/media/dentistClientsOne.19a512c8416b7fe823ae.png'} alt="img"/>
-                        <img src={'http://localhost:3001/static/media/dentistClientsTwo.ac5055628f4b3d2046c6.png'} alt="img"/>
-                        <img src={'http://localhost:3001/static/media/dentistClientsThree.816ae15bbf3b691564db.png'} alt="img"/>
+                        <img src={stomatologyClientsImgOne} alt="img"/>
+                        <img src={stomatologyClientsImgTwo} alt="img"/>
+                        <img src={stomatologyClientsImgThree} alt="img"/>
                     </div>
 
                 </div>
