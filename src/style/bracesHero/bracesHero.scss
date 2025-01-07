@@ -1,0 +1,260 @@
+#bracesHero{
+  background: url("https://voenchel.ru/uploads/posts/2022-04/1651215444_607a2da2ae5ac9201c254449.jpeg")no-repeat center/cover;
+  min-height: 100vh;
+  .bracesHeroBlock {
+    background: linear-gradient(90deg,  #00000099 60%, rgba(79, 85, 101, 0.00) 118.96%);
+    min-height: 100vh;
+    .bracesHero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding-top: 75px;
+      h1 {
+        width: 90%;
+        color: #FFF;
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 65px;
+      }
+      p {
+        width: 85%;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 15px 0 30px 0;
+        line-height: 28px;
+      }
+      a {
+        button {
+          color: #FFF;
+          font-size: 22px;
+          font-weight: 500;
+          border-radius: 10px;
+          border: 2px solid #40B1DE;
+          padding: 10px 50px;
+          background: transparent;
+          position: relative;
+          z-index: 1;
+          &:after {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 100%;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            background: rgba(255, 255, 255, 0.62);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, .5),
+            7px 7px 20px 0 rgba(0, 0, 0, .1),
+            4px 4px 5px 0 rgba(0, 0, 0, .1);
+            transition: all 0.3s ease;
+          }
+          &:hover {
+            color: white;
+          }
+
+          &:hover:after {
+            left: 0;
+            width: 100%;
+          }
+
+          &:active {
+            top: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  #bracesHero {
+    .bracesHeroBlock {
+      .bracesHero {
+        h1 {
+          font-size: 44px;
+          line-height: 57px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #bracesHero {
+    .bracesHeroBlock {
+      .bracesHero {
+        h1 {
+
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #bracesHero {
+    .bracesHeroBlock {
+      .bracesHero {
+        padding-top: 65px;
+        h1 {
+          font-size: 41px;
+          line-height: 55px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #bracesHero {
+    .bracesHeroBlock {
+      .bracesHero {
+        min-height: 115vh;
+        h1 {
+          width: 90%;
+          font-size: 38px;
+          line-height: 49px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #bracesHero {
+    .bracesHeroBlock {
+      .bracesHero {
+        h1 {
+          font-size: 34px;
+          line-height: 48px
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 45px;
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #bracesHero {
+    .bracesHeroBlock {
+      .bracesHero {
+        min-height: 120vh;
+        h1 {
+          font-size: 30px;
+          line-height: 44px;
+        }
+        p {
+          font-size: 19px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 42px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #bracesHero {
+    .bracesHeroBlock {
+      .bracesHero {
+        h1 {
+          line-height: 43px;
+          font-size: 30px;
+        }
+        p {
+          font-size: 19px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 42px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #bracesHero {
+    .bracesHeroBlock {
+      .bracesHero {
+        h1 {
+          font-size: 25px;
+          line-height: 38px;
+        }
+        p {
+          font-size: 18px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 33px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

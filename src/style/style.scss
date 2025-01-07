@@ -91,6 +91,13 @@ html {
 @import './veneersPlan/veneersPlan.scss';
 
 
+// Импорт секшинов брекеты (стоматология)
+@import './bracesHero/bracesHero.scss';
+@import './helpBraces/helpBraces.scss';
+@import './advantagesBraces/advantagesBraces.scss';
+@import './priceTreatmentBraces/priceTreatmentBraces.scss';
+@import './bracesFaq/bracesFaq.scss';
+
 // Импорт секшинов хирургии
 @import './hirurgiaHero/hirurgiaHero.scss';
 @import './esthete/esthete.scss';
