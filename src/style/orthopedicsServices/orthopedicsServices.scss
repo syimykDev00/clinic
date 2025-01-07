@@ -1,0 +1,492 @@
+#orthopedicsServices {
+  padding: 60px 0;
+
+  .orthopedicsServices {
+    h1 {
+      color: #161719;
+      font-size: 45px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p {
+      color: #535353;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 15px 0 40px 0;
+      text-align: center;
+    }
+    h3 {
+      color: #161719;
+      font-size: 23px;
+      font-weight: 500;
+      padding: 15px 0 40px 0;
+      text-align: center;
+    }
+    &--blocks {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     padding-bottom: 100px;
+
+      &__price {
+        width: 80%;
+        height: 200px;
+        margin: 0 auto;
+        overflow-y: scroll;
+
+
+        &--block {
+          display: flex;
+          align-items: center;
+
+          h4 {
+            color: #000;
+            font-size: 22px;
+            font-weight: 400;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+
+            svg {
+              padding-left: 5px;
+            }
+          }
+
+          h5 {
+            width: 14%;
+            color: #000;
+            font-size: 22px;
+            font-weight: 400;
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+          }
+
+          &__line {
+            width: 55%;
+            border: 1px dashed #ABABAB;
+            margin: 0 15px;
+          }
+        }
+      }
+    }
+    center {
+      img {
+        width: 80%;
+        height: auto;
+        padding: 0 0 100px 0;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #orthopedicsServices {
+    .orthopedicsServices {
+      h1 {
+
+      }
+      p {
+
+      }
+      h3 {
+
+      }
+      &--blocks {
+        &__price {
+          width: 75%;
+          &--block {
+            h4 {
+              svg {
+
+              }
+            }
+            &__line {
+              width: 45%;
+            }
+            h5 {
+              width: 20%;
+            }
+          }
+        }
+      }
+      center {
+        img {
+          width: 75%;
+        }
+      }
+      h3 {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #orthopedicsServices {
+    .orthopedicsServices {
+      h1 {
+
+      }
+      p {
+
+      }
+      h3 {
+
+      }
+      &--blocks {
+        &__price {
+          width: 80%;
+          &--block {
+            h4 {
+              svg {
+
+              }
+            }
+            &__line {
+              width: 45%;
+            }
+            h5 {
+              width: 20%;
+            }
+          }
+        }
+      }
+      center {
+        img {
+          width: 80%;
+        }
+      }
+      h3 {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #orthopedicsServices {
+    .orthopedicsServices {
+      h1 {
+        font-size: 44px;
+      }
+      p {
+
+      }
+      h3 {
+
+      }
+      &--blocks {
+        &__price {
+          width: 75%;
+          &--block {
+            h4 {
+              svg {
+
+              }
+            }
+            &__line {
+              width: 40%;
+            }
+            h5 {
+              width: 20%;
+            }
+          }
+        }
+      }
+      center {
+        img {
+          width: 75%;
+        }
+      }
+      h3 {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #orthopedicsServices {
+    .orthopedicsServices {
+      h1 {
+        font-size: 44px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h3 {
+
+      }
+      &--blocks {
+        &__price {
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 21px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 38%;
+            }
+            h5 {
+              width: 22%;
+              font-size: 21px;
+            }
+          }
+        }
+      }
+      center {
+        img {
+          width: 90%;
+        }
+      }
+      h3 {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #orthopedicsServices {
+    .orthopedicsServices {
+      h1 {
+        font-size: 43px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h3 {
+
+      }
+      &--blocks {
+        &__price {
+          height: 180px;
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 20px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 33%;
+            }
+            h5 {
+              width: 28%;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      center {
+        img {
+          width: 90%;
+        }
+      }
+      h3 {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #orthopedicsServices {
+    .orthopedicsServices {
+      h1 {
+        font-size: 41px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h3 {
+
+      }
+      &--blocks {
+        &__price {
+          height: 160px;
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 18px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 30%;
+            }
+            h5 {
+              width: 31%;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      center {
+        img {
+          width: 90%;
+        }
+      }
+      h3 {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #orthopedicsServices {
+    .orthopedicsServices {
+      h1 {
+        font-size: 39px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h3 {
+
+      }
+      &--blocks {
+        &__price {
+          height: 140px;
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 18px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 28%;
+            }
+            h5 {
+              width: 34%;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      center {
+        img {
+          width: 90%;
+        }
+      }
+      h3 {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #orthopedicsServices {
+    .orthopedicsServices {
+      h1 {
+        font-size: 38px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+      }
+      h3 {
+
+      }
+      &--blocks {
+        &__price {
+          height: 140px;
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 18px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 30%;
+            }
+            h5 {
+              width: 31%;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      center {
+        img {
+          width: 90%;
+        }
+      }
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #orthopedicsServices {
+    .orthopedicsServices {
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 19px;
+        line-height: 26px;
+      }
+      h3 {
+
+      }
+      &--blocks {
+        &__price {
+          height: 130px;
+          width: 90%;
+          &--block {
+            h4 {
+              font-size: 17px;
+              svg {
+
+              }
+            }
+            &__line {
+              width: 28%;
+            }
+            h5 {
+              width: 30%;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+      center {
+        img {
+          width: 90%;
+        }
+      }
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+}

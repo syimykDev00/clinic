@@ -1,5 +1,5 @@
 #orthopedicsHero {
-  background: url("https://skydent.by/upload/iblock/571/a5jpc0lx2krwkrhzefeb2izdjpj4fwbk.jpg")no-repeat center/cover;
+  background: url("https://sotni.ru/wp-content/uploads/2023/08/stomatologiia-fon-3-2.webp")no-repeat center/cover;
   min-height: 100vh;
   .orthopedicsHeroBlock {
     background: linear-gradient(90deg, #00000099 60%, rgba(79, 85, 101, 0.00) 118.96%);
@@ -10,9 +10,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: start;
-      padding-top: 75px;
+      padding-top: 60px;
       h1 {
-        width: 811px;
         color: #FFF;
         font-size: 45px;
         font-weight: 800;
@@ -64,6 +63,168 @@
 
           &:active {
             top: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+  #orthopedicsHero {
+    .orthopedicsHeroBlock {
+      .orthopedicsHero {
+        h1 {
+
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #orthopedicsHero {
+    .orthopedicsHeroBlock {
+      .orthopedicsHero {
+        h1 {
+
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #orthopedicsHero {
+    .orthopedicsHeroBlock {
+      .orthopedicsHero {
+        h1 {
+          font-size: 44px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #orthopedicsHero {
+    .orthopedicsHeroBlock {
+      .orthopedicsHero {
+        h1 {
+
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 45px;
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #orthopedicsHero {
+    .orthopedicsHeroBlock {
+      .orthopedicsHero {
+        h1 {
+          font-size: 43px;
+        }
+        p {
+          font-size: 19px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 42px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #orthopedicsHero {
+    .orthopedicsHeroBlock {
+      .orthopedicsHero {
+        h1 {
+          font-size: 42px;
+        }
+        p {
+          font-size: 19px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 42px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #orthopedicsHero {
+    .orthopedicsHeroBlock {
+      .orthopedicsHero {
+        h1 {
+          font-size: 42px;
+        }
+        p {
+          font-size: 19px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 33px;
+            font-size: 18px;
           }
         }
       }
