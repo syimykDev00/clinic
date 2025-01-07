@@ -12,16 +12,18 @@
       align-items: start;
       padding-top: 60px;
       h1 {
+        width: 85%;
         color: #FFF;
         font-size: 45px;
         font-weight: 800;
-        line-height: 65px;
+        line-height: 62px;
       }
       p {
+        width: 85%;
         color: #FFF;
         font-size: 20px;
         font-weight: 400;
-        padding: 15px 0 30px 0;
+        padding: 20px 0 30px 0;
         line-height: 28px;
       }
       a {
@@ -62,6 +64,220 @@
 
           &:active {
             top: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #veneersHero {
+    .veneersHeroBlock {
+      .veneersHero {
+        h1 {
+          width: 90%;
+          line-height: 58px;
+          font-size: 43px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #veneersHero {
+    .veneersHeroBlock {
+      .veneersHero {
+        h1 {
+          width: 90%;
+          line-height: 58px;
+          font-size: 43px;
+        }
+        p {
+          width: 85%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #veneersHero {
+    .veneersHeroBlock {
+      .veneersHero {
+        h1 {
+          width: 90%;
+          line-height: 57px;
+          font-size: 42px;
+        }
+        p {
+          width: 85%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #veneersHero {
+    .veneersHeroBlock {
+      .veneersHero {
+        h1 {
+          width: 90%;
+          line-height: 55px;
+          font-size: 41px;
+        }
+        p {
+          width: 85%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #veneersHero {
+    .veneersHeroBlock {
+      .veneersHero {
+        h1 {
+          width: 90%;
+          line-height: 51px;
+          font-size: 39px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #veneersHero {
+    .veneersHeroBlock {
+      .veneersHero {
+        min-height: 110vh;
+        h1 {
+          width: 100%;
+          line-height: 45px;
+          font-size: 35px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 45px;
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #veneersHero {
+    .veneersHeroBlock {
+      .veneersHero {
+        min-height: 110vh;
+        h1 {
+          width: 90%;
+          line-height: 39px;
+          font-size: 28px;
+        }
+        p {
+          font-size: 19px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 42px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #veneersHero {
+    .veneersHeroBlock {
+      .veneersHero {
+        min-height: 110vh;
+        h1 {
+          width: 90%;
+          line-height: 41px;
+          font-size: 29px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 42px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #veneersHero {
+    .veneersHeroBlock {
+      .veneersHero {
+        min-height: 115vh;
+        h1 {
+          width: 90%;
+          line-height: 38px;
+          font-size: 27px;
+        }
+        p {
+          font-size: 18px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 33px;
+            font-size: 18px;
           }
         }
       }
