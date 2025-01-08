@@ -1,0 +1,237 @@
+.accordion {
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: .4s;
+}
+
+.item {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding: 20px 48px 20px 24px;
+  cursor: pointer;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+  align-items: center;
+  transition: .4s;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ced4da;
+  transition: .4s;
+}
+
+.title {
+  width: 70%;
+  transition: .4s;
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.icon {
+  font-size: 30px;
+  color: #40B1DE;
+  font-weight: 700;
+}
+
+.open .icon {
+  animation: icon .4s alternate linear;
+}
+
+@keyframes icon {
+  0% {
+    scale: 0;
+  }
+}
+
+.content-box {
+  grid-column: 2 / -1;
+  padding-bottom: 16px;
+  line-height: 1.6;
+  transition: .4s;
+}
+
+.content-box ul {
+  color: #868e96;
+  margin-left: 16px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: .4s;
+}
+
+/* OPEN STATE */
+.open {
+  transition: .4s;
+}
+
+.open .number,
+.open .text {
+  color: #087f5b;
+  transition: .4s;
+}
+
+
+.open .content-box {
+  animation: textFAQ .6s alternate linear;
+}
+
+@keyframes textFAQ {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+}
+
+
+#dentistTherapyFaq {
+  padding: 100px 0;
+
+  .dentistTherapyFaq {
+    h1 {
+      color: #161719;
+      font-size: 45px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    h6 {
+      color: #535353;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  #dentistTherapyFaq {
+    .dentistTherapyFaq {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 58px;
+        font-size: 43px;
+      }
+      h6 {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #dentistTherapyFaq {
+    .dentistTherapyFaq {
+      h1 {
+        line-height: 55px;
+        font-size: 43px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #dentistTherapyFaq {
+    .dentistTherapyFaq {
+      h1 {
+        line-height: 50px;
+        font-size: 38px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #dentistTherapyFaq {
+    .dentistTherapyFaq {
+      h1 {
+        line-height: 44px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 32px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #dentistTherapyFaq {
+    .dentistTherapyFaq {
+      h1 {
+        line-height: 46px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 34px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #dentistTherapyFaq {
+    .dentistTherapyFaq {
+      h1 {
+        line-height: 34px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 26px;
+      }
+      h6 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+        font-size: 18px;
+      }
+    }
+  }
+}

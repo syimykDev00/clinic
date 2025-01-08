@@ -98,6 +98,13 @@ html {
 @import './priceTreatmentBraces/priceTreatmentBraces.scss';
 @import './bracesFaq/bracesFaq.scss';
 
+
+// Импорт секшинов терапия (стоматология)
+@import './dentistTherapyHero/dentistTherapyHero.scss';
+@import './dentistTherapyFaq/dentistTherapyFaq.scss';
+@import './dentistTherapyPriceList/dentistTherapyPriceList.scss';
+@import './dentistTherapyCan/dentistTherapyCan.scss';
+
 // Импорт секшинов хирургии
 @import './hirurgiaHero/hirurgiaHero.scss';
 @import './esthete/esthete.scss';

@@ -1,0 +1,232 @@
+#dentistTherapyCan {
+  padding: 0 0 120px 0;
+  .dentistTherapyCan {
+    h1 {
+      font-size: 45px;
+      color: #161719;
+      padding-bottom: 50px;
+      font-weight: 700;
+      text-align: center;
+    }
+    &--general {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: start;
+      &__block {
+        width: 500px;
+        height: 50px;
+        margin-bottom: 30px;
+        background: linear-gradient(45deg, #6CD5FF, white, #6CD5FF);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 3px solid #6CD5FF;
+        border-radius: 40px;
+        h3 {
+          width: 90%;
+          margin: 0 auto;
+          font-size: 22px;
+          color: #161719;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #dentistTherapyCan {
+    .dentistTherapyCan {
+      h1 {
+        font-size: 44px;
+      }
+      &--general {
+        &__block {
+          width: 450px;
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #dentistTherapyCan {
+    .dentistTherapyCan {
+      h1 {
+        font-size: 44px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__block {
+          width: 550px;
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #dentistTherapyCan {
+    .dentistTherapyCan {
+      h1 {
+        font-size: 44px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__block {
+          width: 550px;
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #dentistTherapyCan {
+    .dentistTherapyCan {
+      h1 {
+        font-size: 43px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__block {
+          margin: 0 auto 30px auto;
+          width: 500px;
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #dentistTherapyCan {
+    .dentistTherapyCan {
+      h1 {
+        font-size: 41px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__block {
+          margin: 0 auto 30px auto;
+          width: 400px;
+          h3 {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #dentistTherapyCan {
+    .dentistTherapyCan {
+      h1 {
+        font-size: 38px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__block {
+          margin: 0 auto 30px auto;
+          width: 350px;
+          h3 {
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #dentistTherapyCan {
+    .dentistTherapyCan {
+      h1 {
+        font-size: 34px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__block {
+          margin: 0 auto 30px auto;
+          width: 90%;
+          h3 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #dentistTherapyCan {
+    .dentistTherapyCan {
+      h1 {
+        font-size: 32px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__block {
+          height: 60px;
+          margin: 0 auto 30px auto;
+          width: 90%;
+          h3 {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #dentistTherapyCan {
+    .dentistTherapyCan {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 35px;
+        line-height: 41px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__block {
+          height: 65px;
+          margin: 0 auto 30px auto;
+          width: 90%;
+          h3 {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+}
