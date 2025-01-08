@@ -105,6 +105,14 @@ html {
 @import './dentistTherapyPriceList/dentistTherapyPriceList.scss';
 @import './dentistTherapyCan/dentistTherapyCan.scss';
 
+
+// Импорт секшинов отбеливание (стоматология)
+@import './whiteningHero/whiteningHero.scss';
+@import './whiteningSystem/whiteningSystem.scss';
+@import './whiteningDreamSmile/whiteningDreamSmile.scss';
+@import './whiteningProfessional/whiteningProfessional.scss';
+
+
 // Импорт секшинов хирургии
 @import './hirurgiaHero/hirurgiaHero.scss';
 @import './esthete/esthete.scss';

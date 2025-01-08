@@ -1,0 +1,287 @@
+#whiteningHero {
+  background: url("https://celes.club/uploads/posts/2022-05/1653002718_3-celes-club-p-stomatologicheskii-fon-krasivie-3.jpg")no-repeat center/cover;
+  min-height: 100vh;
+  .whiteningHeroBlock {
+    background: linear-gradient(90deg, #00000099 60%, rgba(79, 85, 101, 0.00) 118.96%);
+    min-height: 100vh;
+    .whiteningHero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding-top: 60px;
+      h1 {
+        width: 85%;
+        color: #FFF;
+        font-size: 44px;
+        font-weight: 800;
+      }
+      p {
+        width: 85%;
+        color: #FFF;
+        font-size: 23px;
+        font-weight: 400;
+        padding: 20px 0 25px 0;
+      }
+      h2 {
+        width: 85%;
+        color: #FFF;
+        font-size: 26px;
+        font-weight: 400;
+        padding-bottom: 20px;
+      }
+      h3 {
+        width: 85%;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 10px;
+      }
+      a {
+        button {
+          color: #FFF;
+          font-size: 22px;
+          font-weight: 500;
+          border-radius: 10px;
+          border: 2px solid #40B1DE;
+          padding: 10px 50px;
+          background: transparent;
+          position: relative;
+          margin-top: 20px;
+          z-index: 1;
+          &:after {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 100%;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            background: rgba(255, 255, 255, 0.62);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, .5),
+            7px 7px 20px 0 rgba(0, 0, 0, .1),
+            4px 4px 5px 0 rgba(0, 0, 0, .1);
+            transition: all 0.3s ease;
+          }
+          &:hover {
+            color: white;
+          }
+
+          &:hover:after {
+            left: 0;
+            width: 100%;
+          }
+
+          &:active {
+            top: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #whiteningHero {
+    .whiteningHeroBlock {
+      .whiteningHero {
+        min-height: 110vh;
+        h1 {
+          width: 90%;
+          font-size: 43px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #whiteningHero {
+    .whiteningHeroBlock {
+      .whiteningHero {
+        h1 {
+          width: 90%;
+          font-size: 43px;
+        }
+        p {
+          width: 85%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #whiteningHero {
+    .whiteningHeroBlock {
+      .whiteningHero {
+        h1 {
+          width: 90%;
+          font-size: 42px;
+        }
+        p {
+          width: 85%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #whiteningHero {
+    .whiteningHeroBlock {
+      .whiteningHero {
+        h1 {
+          width: 90%;
+          font-size: 41px;
+        }
+        p {
+          width: 85%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #whiteningHero {
+    .whiteningHeroBlock {
+      .whiteningHero {
+        h1 {
+          width: 90%;
+          font-size: 41px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #whiteningHero {
+    .whiteningHeroBlock {
+      .whiteningHero {
+        min-height: 120vh;
+        h1 {
+          width: 100%;
+          font-size: 39px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 45px;
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #whiteningHero {
+    .whiteningHeroBlock {
+      .whiteningHero {
+        h1 {
+          width: 90%;
+          font-size: 37px;
+        }
+        p {
+          font-size: 19px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 42px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #whiteningHero {
+    .whiteningHeroBlock {
+      .whiteningHero {
+        h1 {
+          width: 90%;
+          font-size: 29px;
+        }
+        p {
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 42px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #whiteningHero {
+    .whiteningHeroBlock {
+      .whiteningHero {
+        h1 {
+          width: 90%;
+          font-size: 35px;
+        }
+        p {
+          font-size: 19px;
+          width: 90%;
+        }
+        a {
+          button {
+            padding: 10px 33px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

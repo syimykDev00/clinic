@@ -1,0 +1,375 @@
+#whiteningProfessional {
+  background: #F8F9FB;
+  padding: 100px 0;
+  .whiteningProfessional {
+    h1 {
+      font-size: 45px;
+      color: #161719;
+      padding-bottom: 50px;
+      font-weight: 700;
+      text-align: center;
+    }
+    &--general {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      &__group {
+        padding-bottom: 40px;
+        h2 {
+          font-size: 28px;
+          color: #161719;
+          padding-bottom: 20px;
+          font-weight: 500;
+          text-align: center;
+        }
+        img {
+          width: 550px;
+        }
+      }
+    }
+    h3 {
+      font-size: 38px;
+      color: #161719;
+      padding-top: 30px;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        font-size: 44px;
+      }
+      &--general {
+        &__group {
+          h2 {
+
+          }
+          img {
+            width: 450px;
+          }
+        }
+      }
+      h3 {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        font-size: 41px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__group {
+          h2 {
+
+          }
+          img {
+            width: 600px;
+            height: auto;
+          }
+        }
+      }
+      h3 {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 37px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 40px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__group {
+          h2 {
+
+          }
+          img {
+            width: 600px;
+            height: auto;
+          }
+        }
+      }
+      h3 {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 37px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 57px;
+        font-size: 40px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__group {
+          h2 {
+
+          }
+          img {
+            width: 600px;
+            height: auto;
+          }
+        }
+      }
+      h3 {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 36px;
+        line-height: 51px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 57px;
+        font-size: 40px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__group {
+          h2 {
+
+          }
+          img {
+            width: 85%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            height: auto;
+          }
+        }
+      }
+      h3 {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 36px;
+        line-height: 51px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 51px;
+        font-size: 39px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__group {
+          h2 {
+
+          }
+          img {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            height: auto;
+          }
+        }
+      }
+      h3 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 46px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 47px;
+        font-size: 36px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__group {
+          h2 {
+            font-size: 25px;
+          }
+          img {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            height: auto;
+          }
+        }
+      }
+      h3 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 23px;
+        line-height: 37px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 41px;
+        font-size: 32px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__group {
+          h2 {
+            width: 90%;
+            font-size: 23px;
+            margin: 0 auto;
+          }
+          img {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            height: auto;
+          }
+        }
+      }
+      h3 {
+        padding-top: 10px;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 32px;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 41px;
+        font-size: 31px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__group {
+          h2 {
+            width: 90%;
+            font-size: 23px;
+            margin: 0 auto;
+          }
+          img {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            height: auto;
+          }
+        }
+      }
+      h3 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 33px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #whiteningProfessional {
+    .whiteningProfessional {
+      h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 35px;
+        font-size: 25px;
+      }
+      &--general {
+        flex-direction: column;
+        align-items: center;
+        &__group {
+          h2 {
+            width: 90%;
+            font-size: 22px;
+            margin: 0 auto;
+          }
+          img {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            height: auto;
+          }
+        }
+      }
+      h3 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 17px;
+        line-height: 30px;
+      }
+    }
+  }
+}
