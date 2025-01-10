@@ -106,6 +106,9 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      img {
+        width: 30%;
+      }
     }
   }
 }
@@ -124,7 +127,7 @@
       }
       &--images {
         img {
-          width: 32%;
+          width: 30%;
         }
       }
     }
@@ -139,7 +142,7 @@
       }
       &--images {
         img {
-          width: 32%;
+          width: 30%;
         }
       }
     }
@@ -154,7 +157,7 @@
       }
       &--images {
         img {
-          width: 32%;
+          width: 30%;
         }
       }
     }

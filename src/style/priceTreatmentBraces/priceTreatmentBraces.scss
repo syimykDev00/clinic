@@ -17,7 +17,7 @@
         align-items: center;
         text-align: center;
         &--block {
-          width: 400px;
+          width: 330px;
           height: 50px;
           margin-bottom: 20px;
           border: 3px solid #6CD5FF;
@@ -39,7 +39,7 @@
           font-weight: 500;
         }
         p {
-          width: 350px;
+          width: 330px;
           color: #161719;
           font-size: 18px;
           font-weight: 500;
@@ -51,7 +51,7 @@
           padding-bottom: 15px;
         }
         h4 {
-          width: 400px;
+          width: 330px;
           color: #161719;
           font-size: 20px;
           font-weight: 500;
@@ -82,17 +82,18 @@
         &__group {
           padding-bottom: 30px;
           &--block {
+            width: 400px;
             h3 {
-
+              width: 400px;
             }
             h6 {
-
+              width: 400px;
             }
             p {
-
+              width: 400px;
             }
             h4 {
-
+              width: 400px;
             }
           }
         }
@@ -113,17 +114,18 @@
         &__group {
           padding-bottom: 30px;
           &--block {
+            width: 350px;
             h3 {
-
+              width: 350px;
             }
             h6 {
-
+              width: 350px;
             }
             p {
-
+              width: 350px;
             }
             h4 {
-
+              width: 350px;
             }
           }
         }
