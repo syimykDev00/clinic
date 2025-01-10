@@ -48,14 +48,14 @@ const Header = () => {
                         <nav className="navigation__nav">
                             <ul className="navigation__list">
                                 <li className="navigation__item">
-                                    <NavLink to="/#about" className="navigation__link">
-                                        О клинике
-                                    </NavLink>
+                                    <a href="/#about" className="navigation__link">
+                                    О клинике
+                                    </a>
                                 </li>
                                 <li className="navigation__item">
-                                    <NavLink to="/#ourServices" className="navigation__link">
+                                    <a href="/#ourServices" className="navigation__link">
                                         Услуги
-                                    </NavLink>
+                                    </a>
                                 </li>
                                 <li className="navigation__item">
                                     <a

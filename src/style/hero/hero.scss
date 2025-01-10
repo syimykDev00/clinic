@@ -12,17 +12,17 @@
       align-items: start;
       padding-top: 75px;
       h1 {
-        width: 811px;
+        width: 90%;
         color: #FFF;
         font-size: 45px;
         font-weight: 800;
         line-height: 65px;
       }
       p {
-        width: 722px;
+        width: 90%;
         color: #FFF;
         font-size: 20px;
-        font-weight: 400;
+        font-weight: 500;
         padding: 15px 0 30px 0;
         line-height: 28px;
       }
@@ -82,20 +82,59 @@
 }
 
 @media (max-width: 1024px) {
+  #hero {
+    .heroBlock {
+      .hero {
+        padding-top: 65px;
+        min-height: 110vh;
+        h1 {
+          font-size: 44px;
+          line-height: 62px;
+        }
+        p {
 
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 992px) {
+  #hero {
+    .heroBlock {
+      .hero {
+        min-height: 110vh;
+        h1 {
+          font-size: 44px;
+          line-height: 62px;
+        }
+        p {
 
+        }
+        a {
+          button {
+
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
   #hero {
     .heroBlock {
       .hero {
+        padding-top: 55px;
+        min-height: 120vh;
         h1 {
           width: 100%;
-          line-height: 53px;
+          line-height: 57px;
           font-size: 43px;
         }
         p {
@@ -116,6 +155,7 @@
   #hero {
     .heroBlock {
       .hero {
+        min-height: 130vh;
         h1 {
           width: 100%;
           line-height: 53px;
@@ -139,10 +179,11 @@
   #hero {
     .heroBlock {
       .hero {
+        min-height: 140vh;
         h1 {
           width: 100%;
           line-height: 49px;
-          font-size: 38px;
+          font-size: 37px;
         }
         p {
           width: 90%;
@@ -163,10 +204,11 @@
   #hero {
     .heroBlock {
       .hero {
+        min-height: 145vh;
         h1 {
           width: 100%;
           line-height: 44px;
-          font-size: 32px;
+          font-size: 31px;
         }
         p {
           width: 90%;
@@ -188,6 +230,7 @@
   #hero {
     .heroBlock {
       .hero {
+        min-height: 150vh;
         h1 {
           width: 100%;
           line-height: 44px;
@@ -213,10 +256,12 @@
   #hero {
     .heroBlock {
       .hero {
+        padding-top: 55px;
+        min-height: 160vh;
         h1 {
           width: 100%;
           line-height: 38px;
-          font-size: 27px;
+          font-size: 25px;
         }
         p {
           width: 90%;
