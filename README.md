@@ -12,15 +12,13 @@ https://clinic-wheat.vercel.app/
 ## 🛠 Tech Stack
 - React
 - JavaScript
-- CSS
-- Framer Motion
+- SCSS
 
 ---
 
 ## ✨ Features
 - Responsive design (mobile/tablet/desktop)
 - Modern healthcare UI
-- Smooth animations
 - Clean layout
 - Landing page structure
 
