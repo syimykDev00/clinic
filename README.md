@@ -24,11 +24,6 @@ https://clinic-wheat.vercel.app/
 
 ---
 
-## 📸 Preview
-
-![Preview](./preview.png)
-
----
 
 ## 📌 About Project
 This project was built to practice frontend development skills, UI design, and responsive layout building using React.
